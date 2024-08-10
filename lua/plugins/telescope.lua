@@ -7,8 +7,8 @@ return {
       defaults = {
         mappings = {
           i = {
-            ["<CR>"] = actions.select_tab,
-            ["<M-CR>"] = actions.select_default,
+            ["<M-CR>"] = actions.select_tab,
+            ["<CR>"] = actions.select_default,
           },
         },
       },
