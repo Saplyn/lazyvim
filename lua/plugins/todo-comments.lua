@@ -8,6 +8,7 @@ return {
       TODO = { icon = "󱅫 ", color = "info", signs = true },
       DONE = { icon = "󱇥 ", color = "info" },
       LYN = { icon = "󰄛 ", color = "hint", signs = true },
+      REF = { icon = " ", color = "test", signs = true },
       NOTE = { icon = " ", signs = true },
     },
   },
