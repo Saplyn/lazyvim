@@ -2,6 +2,7 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 
--- LYN: Quicker tab switch
--- vim.keymap.set("n", "<leader>n", "<cmd>tabnext<cr>", { desc = "Next Tab" })
--- vim.keymap.set("n", "<leader>p", "<cmd>tabprevious<cr>", { desc = "Previous Tab" })
+vim.keymap.set("v", "<M-p>", [["_dP]], { desc = "Lossless Paste" })
+vim.keymap.set("v", "<M-d>", [["_d]], { desc = "Yankless Delete" })
+
+vim.keymap.set("n", "<M-w>", "<cmd>wincmd W<cr>", { desc = "Switch Window Focus" })

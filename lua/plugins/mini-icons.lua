@@ -7,7 +7,12 @@ return {
       ["Cargo.toml"] = { glyph = "󰏗", hl = "MiniIconsOrange" },
       ["Cargo.lock"] = { glyph = "󰏗", hl = "MiniIconsOrange" },
     },
-    directory = {},
+    directory = {
+      ["Assets"] = { glyph = "󰴉", hl = "MiniIconsPurple" },
+    },
+    filetype = {
+      ["dafny"] = { glyph = "" },
+    },
     default = {
       directory = { hl = "MiniIconsBlue" },
     },
