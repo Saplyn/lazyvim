@@ -10,5 +10,8 @@ return {
         rendered = 2,
       },
     },
+    latex = {
+      enabled = false,
+    },
   },
 }
