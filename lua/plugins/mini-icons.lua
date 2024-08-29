@@ -13,6 +13,9 @@ return {
     filetype = {
       ["dafny"] = { glyph = "" },
     },
+    extension = {
+      ["h"] = { glyph = "󰜕" },
+    },
     default = {
       directory = { hl = "MiniIconsBlue" },
     },
