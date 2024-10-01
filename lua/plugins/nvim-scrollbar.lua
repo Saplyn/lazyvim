@@ -4,9 +4,10 @@ return {
     "kevinhwang91/nvim-hlslens",
   },
   opts = {
+    hide_if_all_visible = true,
     marks = {
       Cursor = { text = "░" },
-      Search = { text = { "─", "═" } },
+      Search = { text = { "─", "═" }, color = "#FF966C" },
       Error = { text = { "─", "═" } },
       Warn = { text = { "─", "═" } },
       Info = { text = { "─", "═" } },
@@ -14,7 +15,6 @@ return {
       Misc = { text = { "─", "═" } },
     },
     handlers = {
-      cursor = false,
       search = true,
     },
   },
