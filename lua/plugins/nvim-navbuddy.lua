@@ -18,5 +18,9 @@ return {
     lsp = {
       auto_attach = true,
     },
+    icons = {
+      Enum = "󰕘 ",
+      Interface = "󰕘 ",
+    },
   },
 }
