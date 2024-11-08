@@ -9,6 +9,7 @@ return {
       DONE = { icon = "󱇥 ", color = "info" },
       LYN = { icon = "󰄛 ", color = "hint", signs = true },
       REF = { icon = " ", color = "test", signs = true },
+      MARK = { icon = "󰃀 ", color = "test", signs = true },
       NOTE = { icon = " ", signs = true },
     },
   },

@@ -20,8 +20,6 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
   - [`fd-find`](https://lib.rs/crates/fd-find)
 - `ryleelyman/latex.nvim`
   - [`tree-sitter` CLI](https://github.com/tree-sitter/tree-sitter/blob/master/cli/README.md)
-- `stevearc/conform.nvim`
-  - [`prettierd`](https://github.com/fsouza/prettierd)
 - `MrcJkb/neotest-haskell`
   - [`luarocks`](https://luarocks.org/)
 - `mrcjkb/rustaceanvim`
@@ -37,4 +35,4 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 ### Extras
 
-- [`gitui`](https://lib.rs/crates/gitui)
+- [`lazygit`](https://github.com/jesseduffield/lazygit)
