@@ -7,11 +7,14 @@ return {
     win_options = {
       conceallevel = {
         default = 0,
-        rendered = 2,
+        rendered = 1,
       },
     },
     latex = {
       enabled = false,
+    },
+    checkbox = {
+      enabled = true,
     },
   },
 }

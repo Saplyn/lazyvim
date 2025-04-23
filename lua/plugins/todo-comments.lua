@@ -5,8 +5,8 @@ return {
     keywords = {
       FIX = { signs = true },
       WARN = { icon = "󱇎 ", signs = true },
-      TODO = { icon = "󱅫 ", color = "info", signs = true },
-      DONE = { icon = "󱇥 ", color = "info" },
+      TODO = { icon = "󱅶 ", color = "info", signs = true },
+      DONE = { icon = "󰱒 ", color = "info", signs = true },
       LYN = { icon = "󰄛 ", color = "hint", signs = true },
       REF = { icon = " ", color = "test", signs = true },
       MARK = { icon = "󰃀 ", color = "test", signs = true },
