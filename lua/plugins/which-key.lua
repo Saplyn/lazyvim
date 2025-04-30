@@ -7,6 +7,7 @@ return {
         { pattern = "overseer", icon = "󰈈 ", color = "blue" },
         { plugin = "overseer.nvim", icon = "󰈈 ", color = "blue" },
         { plugin = "codesnap.nvim", icon = "󰄀 ", color = "orange" },
+        { plugin = "git-conflict.nvim", icon = " ", color = "orange" },
       },
     },
   },
