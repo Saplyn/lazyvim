@@ -10,7 +10,7 @@ return {
 
     -- stylua: ignore
     vim.list_extend(dashboard_keys, {
-      { action = 'ene | DBUI',                                                 desc = "Database",           icon = "󰆼 ", key = "D" },
+      { action = '<cmd>ene | DBUI<cr>',                                        desc = "Database",           icon = "󰆼 ", key = "D" },
       { action = function() LazyVim.lazygit({ cwd = LazyVim.root.git() }) end, desc = "Lazygit (Root Dir)", icon = "󰊢 ", key = "G" },
       dashboard_quit_entry,
     })
@@ -31,6 +31,19 @@ return {
                 ["t"] = "confirm",
                 ["<CR>"] = "tab",
               },
+            },
+          },
+          icons = {
+            git = {
+              commit = "󰜘 ",
+              staged = "",
+              added = "",
+              deleted = "",
+              ignored = "󰈉",
+              modified = "󰄯",
+              renamed = "",
+              unmerged = "",
+              untracked = "",
             },
           },
         },

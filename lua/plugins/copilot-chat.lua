@@ -4,6 +4,6 @@ return {
     "CopilotChatModels",
   },
   opts = {
-    model = "o1",
+    model = "gpt-4o",
   },
 }
