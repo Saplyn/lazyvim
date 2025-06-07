@@ -6,3 +6,5 @@ vim.keymap.set("v", "<M-p>", [["_dP]], { desc = "Lossless Paste" })
 vim.keymap.set("v", "<M-d>", [["_d]], { desc = "Yankless Delete" })
 
 vim.keymap.set("n", "<M-w>", "<cmd>wincmd W<cr>", { desc = "Switch Window Focus" })
+
+vim.keymap.set("n", "<leader>L", "<cmd>LazyExtra<cr>", { desc = "Lazy Extra" })
