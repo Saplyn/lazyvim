@@ -18,7 +18,11 @@ return {
 
         vim.keymap.set("n", "<leader>xr", function()
           vim.cmd.RustLsp({ "renderDiagnostic", "current" })
-        end, { desc = "Render Diagnostic", buffer = bufnr })
+        end, { desc = "Render Diagnostic (Current)", buffer = bufnr })
+
+        vim.keymap.set("n", "<leader>xR", function()
+          vim.cmd.RustLsp({ "renderDiagnostic", "cycle" })
+        end, { desc = "Render Diagnostic (Cycle)", buffer = bufnr })
 
         vim.keymap.set("n", "<leader>cp", function()
           vim.cmd.RustLsp("openCargo")
