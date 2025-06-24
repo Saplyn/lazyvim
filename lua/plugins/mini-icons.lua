@@ -8,6 +8,7 @@ return {
       ["Cargo.toml"] = { glyph = "󰏗", hl = "MiniIconsOrange" },
       ["Cargo.lock"] = { glyph = "󰏗", hl = "MiniIconsOrange" },
       ["tauri.conf.json"] = { glyph = "", hl = "MiniIconsOrange" },
+      ["vite.config.ts"] = { glyph = "", hl = "MiniIconsYellow" },
     },
     directory = {
       ["target"] = { glyph = "󱧼", hl = "MiniIconsOrange" },
@@ -16,12 +17,15 @@ return {
     },
     filetype = {
       ["dafny"] = { glyph = "" },
+      ["admonish"] = { glyph = "", hl = "MiniIconsPurple" },
+      ["pest"] = { glyph = "󰰚", hl = "MiniIconsBlue" },
     },
     extension = {
       ["h"] = { glyph = "󰜕" },
       ["hpp"] = { glyph = "󰜖" },
       ["pdf"] = { glyph = "" },
       ["bak"] = { glyph = "󰁯" },
+      ["pest"] = { glyph = "󰰚", hl = "MiniIconsBlue" },
     },
     default = {
       directory = { hl = "MiniIconsBlue" },

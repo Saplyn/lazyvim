@@ -1,6 +1,6 @@
 return {
   "mrcjkb/rustaceanvim",
-  version = "^5",
+  lazy = false,
   opts = {
     server = {
       on_attach = function(_, bufnr)
@@ -17,7 +17,7 @@ return {
         end, { desc = "Explain Error", buffer = bufnr })
 
         vim.keymap.set("n", "<leader>xr", function()
-          vim.cmd.RustLsp("renderDiagnostic")
+          vim.cmd.RustLsp({ "renderDiagnostic", "current" })
         end, { desc = "Render Diagnostic", buffer = bufnr })
 
         vim.keymap.set("n", "<leader>cp", function()
