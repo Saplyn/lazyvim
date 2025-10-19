@@ -1,7 +1,7 @@
 local animate = require("mini.animate")
 
 return {
-  "echasnovski/mini.animate",
+  "nvim-mini/mini.animate",
   opts = {
     resize = {
       enable = false,

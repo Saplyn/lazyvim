@@ -17,6 +17,9 @@ return {
     opts.dashboard.preset.keys = dashboard_keys
 
     for _, button in ipairs(opts.dashboard.preset.keys) do
+      if button.icon == " " then
+        button.icon = "󰑐 "
+      end
       button.desc = button.desc .. string.rep(" ", 43 - #button.desc)
       button.key_format = "  %s"
     end
