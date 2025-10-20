@@ -7,7 +7,7 @@ return {
       section_separators = { left = "", right = "" },
     },
     sections = {
-      lualine_y = { "overseer" },
+      lualine_y = { "overseer", "lsp_status" },
       lualine_z = { "location" },
     },
   },
