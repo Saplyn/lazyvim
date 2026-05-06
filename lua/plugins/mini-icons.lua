@@ -9,6 +9,10 @@ return {
       ["Cargo.lock"] = { glyph = "󰏗", hl = "MiniIconsOrange" },
       ["tauri.conf.json"] = { glyph = "", hl = "MiniIconsOrange" },
       ["vite.config.ts"] = { glyph = "", hl = "MiniIconsYellow" },
+      [".nuxtignore"] = { glyph = "󱄆", hl = "MiniIconsGreen" },
+      [".nuxtrc"] = { glyph = "󱄆", hl = "MiniIconsGreen" },
+      ["nuxt.config.ts"] = { glyph = "󱄆", hl = "MiniIconsGreen" },
+      ["wrangler.toml"] = { glyph = "", hl = "MiniIconsOrange" },
     },
     directory = {
       ["target"] = { glyph = "󱧼", hl = "MiniIconsOrange" },

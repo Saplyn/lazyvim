@@ -7,7 +7,13 @@ return {
       section_separators = { left = "", right = "" },
     },
     sections = {
-      lualine_y = { "overseer", "lsp_status" },
+      lualine_y = {
+        "overseer",
+        "lsp_status",
+        function()
+          return require("battery").get_status_line()
+        end,
+      },
       lualine_z = { "location" },
     },
   },

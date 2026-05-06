@@ -3,7 +3,5 @@ return {
   cmd = {
     "CopilotChatModels",
   },
-  opts = {
-    model = "gpt-5",
-  },
+  opts = {},
 }
